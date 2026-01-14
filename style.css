@@ -2719,7 +2719,6 @@ html {
   .gallery::before,
   .videos::before,
   .testimonials::before {
-    content: '← Deslize para navegar →';
     display: block;
     text-align: center;
     font-size: 0.75rem;
@@ -2762,4 +2761,5 @@ html {
       overscroll-behavior-x: contain;
     }
   }
+
 }
